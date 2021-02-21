@@ -12,7 +12,7 @@ def line(line_array)
 
   def take_a_number(line_array, name)
     if line_array.size == 0
-      name_array << name
+      line_array << name
       puts "Welcome, #{name}.  You are number 1 in line."
     else
   end
