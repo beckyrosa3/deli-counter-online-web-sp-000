@@ -19,5 +19,7 @@ def line(line_array)
     if line_array.size == 0
       puts "There is nobody waiting to be served!"
     else
+      line_array.shift
+      line_array
   end
 end
