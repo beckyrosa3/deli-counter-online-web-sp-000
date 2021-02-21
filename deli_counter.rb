@@ -4,7 +4,7 @@ def line(katz_deli)
     else
       name = []
       katz_deli.each_with_index do |name,index|
-      
+
       name << puts "#{index + 1}. #{name}"
     end
       puts "The line is currently: #{name.join(' ')}"
