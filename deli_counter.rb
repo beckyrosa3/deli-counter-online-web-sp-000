@@ -20,6 +20,6 @@ def line(line_array)
       puts "There is nobody waiting to be served!"
     else
       puts "currently serving #{line_array.shift}"
-      
+
   end
 end
