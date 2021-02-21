@@ -9,3 +9,10 @@ def line(line_array)
       puts "The line is currently: #{name_array.join(' ')}"
     end
   end
+
+  def take_a_number(line_array, name)
+    if line_array.size == 0
+      puts "Welcome, #{name}.  You are number 1 in line."
+    else
+  end
+end
