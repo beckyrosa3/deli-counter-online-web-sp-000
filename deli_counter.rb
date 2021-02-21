@@ -12,6 +12,7 @@ def line(line_array)
 
   def take_a_number(line_array, name)
       line_array << name
+      index = line_array.size
       puts "Welcome, #{name}.  You are number #{index} in line."
 
   end
